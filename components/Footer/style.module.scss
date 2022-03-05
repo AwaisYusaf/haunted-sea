@@ -26,9 +26,16 @@
 .actions {
   display: flex;
   justify-content: center;
+  padding: 0 2em;
+  @media (max-width: 1000px) {
+    flex-direction: column;
+    align-items: center;
+    padding: 0;
+  }
 }
 .signup {
   width: 50%;
+
   div {
     display: flex;
     input {
@@ -59,6 +66,12 @@
     font-size: 12px;
     width: 80%;
   }
+  @media (max-width: 1000px) {
+    width: 90%;
+    p {
+      width: 100%;
+    }
+  }
 }
 .links {
   width: 70%;
@@ -66,11 +79,16 @@
   align-items: flex-end;
   justify-content: space-evenly;
   a {
-    color: white;
+    color: #e0e0e0;
     text-decoration: none;
+    white-space: nowrap;
   }
-  @media (max-width: 800px) {
-    display: none;
+  @media (max-width: 1000px) {
+    width: 100%;
+    margin-top: 1em;
+    a {
+      font-size: 14px;
+    }
   }
 }
 .logo {
@@ -88,6 +106,7 @@
   display: flex;
   justify-content: space-between;
   align-items: flex-end;
+  padding: 0 2em;
   p {
     font-size: 10px;
     text-align: center;
@@ -103,13 +122,46 @@
       font-size: 10px;
     }
   }
+  .right {
+    display: flex;
+    justify-content: space-around;
+    flex: 1;
+  }
   .policyLinks {
     a {
-      color: white;
+      color: #b6b6b6;
       text-decoration: none;
       font-size: 12px;
     }
     display: flex;
     justify-content: space-evenly;
+  }
+  @media (max-width: 1000px) {
+    flex-direction: column;
+    align-items: center;
+    .left {
+      width: 100%;
+      align-items: flex-start;
+      margin: 1em 0;
+    }
+    .policyLinks {
+      width: 100%;
+      margin: 0.5em 0;
+      justify-content: center;
+      a {
+        margin: 0 1em;
+      }
+    }
+    .right {
+      width: 100%;
+      flex-direction: column-reverse;
+      justify-content: center;
+      p {
+        width: 100%;
+      }
+    }
+    .logo {
+      justify-content: flex-start;
+    }
   }
 }

@@ -36,10 +36,12 @@ function Footer() {
                 </div>
                 
                 
-                <p>Copyright 2022 – All Rights Reserved HauntedSea</p>
-                <div className={styles.policyLinks}>
-                    <Link href="#">Privacy Policy</Link>
-                    <Link href="#">Terms of services</Link>
+                <div className={styles.right}>
+                    <p>Copyright 2022 – All Rights Reserved HauntedSea</p>
+                    <div className={styles.policyLinks}>
+                        <Link href="#">Privacy Policy</Link>
+                        <Link href="#">Terms of services</Link>
+                    </div>
                 </div>
             </div>
         </div>
