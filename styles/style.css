@@ -1,0 +1,15 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+html {
+  scroll-behavior: smooth;
+  overflow-x: hidden;
+}
+.app {
+  background: url("/assets/BG.png");
+  background-repeat: no-repeat;
+  background-color: rgb(0, 8, 36);
+}

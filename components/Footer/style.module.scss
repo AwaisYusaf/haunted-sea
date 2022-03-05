@@ -1,0 +1,115 @@
+.container {
+  width: 100%;
+  margin-top: 23em;
+  //background-color: linear-gradient(#001047, #090011);
+  background: linear-gradient(90deg, rgba(9, 0, 17, 0.5), rgba(0, 16, 71, 0.5));
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 1.5em 0;
+  h1 {
+    color: white;
+  }
+  color: white;
+  hr {
+    height: 3px;
+    margin: 8px 0;
+    opacity: 0.15;
+    background: whitesmoke;
+  }
+  .container2 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+}
+.actions {
+  display: flex;
+  justify-content: center;
+}
+.signup {
+  width: 50%;
+  div {
+    display: flex;
+    input {
+      width: 60%;
+      margin: 5px 0;
+      margin-right: 5px;
+      outline: none;
+      border: none;
+      font-size: 18px;
+      padding: 3px;
+      border-radius: 6px;
+    }
+    button {
+      background-image: linear-gradient(90deg, #00c6fb, #005bea);
+      color: white;
+      padding: 0 15px;
+      outline: none;
+      border: none;
+      margin: 5px;
+      border-radius: 6px;
+      cursor: pointer;
+    }
+  }
+  h3 {
+    font-size: 16px;
+  }
+  p {
+    font-size: 12px;
+    width: 80%;
+  }
+}
+.links {
+  width: 70%;
+  display: flex;
+  align-items: flex-end;
+  justify-content: space-evenly;
+  a {
+    color: white;
+    text-decoration: none;
+  }
+  @media (max-width: 800px) {
+    display: none;
+  }
+}
+.logo {
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  img {
+    width: 3em;
+  }
+  h2 {
+    font-size: 17px;
+  }
+}
+.details {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-end;
+  p {
+    font-size: 10px;
+    text-align: center;
+  }
+  div {
+    display: flex;
+    justify-content: center;
+    width: 35%;
+  }
+  .left {
+    flex-direction: column;
+    span {
+      font-size: 10px;
+    }
+  }
+  .policyLinks {
+    a {
+      color: white;
+      text-decoration: none;
+      font-size: 12px;
+    }
+    display: flex;
+    justify-content: space-evenly;
+  }
+}

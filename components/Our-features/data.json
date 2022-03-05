@@ -1,0 +1,17 @@
+[
+    {
+        "title":"NFT Farming",
+        "content":"Buy, offer or bid on thousands of NFTs on the open marketplace and look through dozens of beautiful, curated collections! Sell or auction any NFTs you own, not just the ones obtained through HauntedSea!",
+        "imgUrl":"/assets/features1bg.png"
+    },
+    {
+        "title":"Staking and Farming",
+        "content":"You can stake HAUNT tokens to earn Clam points which can be exchanged for limited editions provided by selected artists! But wait, there’s more! With HAUNT, token holders will gain access to exclusive events such as special item auctions, exclusive drops, and unique listings from the HauntedSea team and community.",
+        "imgUrl":"/assets/features2bg.png"
+    },
+    {
+        "title":"SeaVerse",
+        "content":"Display your Art in an interactive gallery, trade digital goods and play games in the SeaVerse! Our platform allows you to build extra experiences with your NFTs by collecting, displaying and interacting with NFTs in a shared space as well as buying and selling land parcels and wearables!",
+        "imgUrl":"/assets/features3bg.png"
+    }
+]
