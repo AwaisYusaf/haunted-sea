@@ -5,7 +5,7 @@ import Link from 'next/link';
 function Header() {
   return (
     <header className={styles.container}>
-      <Link href='/'>
+      <Link href='/' passHref>
         <div className={styles.logo}>      
           <img src="/assets/logo.png" height="40" width="40"/>
           <h3>HauntedSea</h3>
@@ -16,11 +16,11 @@ function Header() {
         <input placeholder="Search NFT's"/>
       </div>
       <div className={styles.nav}>
-        <Link href="/1">Explore</Link>
-        <Link href="/1">Our Features</Link>
-        <Link href="/1">Pitchdeck</Link>
-        <Link href="/1">Create</Link>
-        <Link href="/1">Contact Us</Link>
+        <Link href="#explore" passHref>Explore</Link>
+        <Link href="#our-features" passHref>Our Features</Link>
+        <Link href="/" passHref><abbr title='Coming Soon' className={styles.comingSoon}>Pitchdeck</abbr></Link>
+        <Link href="#create" passHref>Create</Link>
+        <Link href="#contact-us" passHref>Contact Us</Link>
       </div>
       <div className={styles.headerActions}>
         <div className={styles.profile}>

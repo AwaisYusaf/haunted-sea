@@ -13,3 +13,17 @@ html {
   background-repeat: no-repeat;
   background-color: rgb(0, 8, 36);
 }
+@keyframes monster3-fish-animation {
+  0% {
+    right: -50em;
+    transform: scale(0.3) rotate(0deg);
+  }
+  50% {
+    right: 45em;
+    transform: scale(1.1) rotate(10deg);
+  }
+  100% {
+    right: -14em;
+    transform: scale(1) rotate(0deg);
+  }
+}

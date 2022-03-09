@@ -1,11 +1,11 @@
 import React from 'react'
 import styles from './style.module.scss';
-function Card({imgUrl,title}) {
+function Card({imgUrl,title,extraPadding}) {
   return (
     <figure className={styles.container}>
         <img src={imgUrl}/>
-        <h3>{title}</h3>
-        <button>Explore</button>
+        <h3 style={extraPadding?{marginTop:'2.4em'}:{}}>{title}</h3>
+        <button style={extraPadding?{marginTop: '2.4em'}:{}}>Explore</button>
     </figure>
   )
 }

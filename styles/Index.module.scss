@@ -36,6 +36,31 @@
     text-align: center;
   }
 }
+//Social links like Iotexpad
+
+.social_links_container {
+  width: 100%;
+}
+
+.social_links {
+  width: 50%;
+  opacity: 0.8;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+}
+.social_link_icon {
+  background: gray;
+  padding: 3px 6px;
+  border-radius: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.social_link_icon img {
+  height: 15px;
+}
+
 @keyframes ship-animation {
   0% {
     transform: skewY(0deg);
@@ -86,11 +111,17 @@
   .explore {
     color: white;
     background-image: linear-gradient(90deg, #00c6fb, #005bea);
+    transition: 0.25s;
   }
   .create {
     position: relative;
     margin-left: 30px;
     color: #005bea;
+    transition: 0.25s;
+  }
+  .create:hover,
+  .explore:hover {
+    transform: translateY(-2px);
   }
   .create::before {
     content: "";
@@ -119,8 +150,8 @@
   cursor: pointer;
   img {
     background-color: #019ef5;
-    border-radius: 12px;
-    padding: 5px;
+    border-radius: 20px;
+    padding: 8px;
   }
   a {
     margin-left: 10px;
@@ -178,11 +209,42 @@
 .section3cards {
   display: flex;
   justify-content: center;
-  width: 100%;
+  width: 62em;
   margin-top: 30px;
   height: 100%;
-  @media (max-width: 800px) {
-    margin-top: -7em;
+  padding-bottom: 3em;
+  @media (max-width: 1300px) {
+    width: 80%;
+  }
+  @media (max-width: 1100px) {
+    width: 90%;
+  }
+  @media (max-width: 1100px) {
+    width: 100%;
+  }
+}
+
+@keyframes jellyfish-animation {
+  0% {
+    left: 0em;
+    bottom: -80em;
+  }
+  50% {
+    bottom: -120em;
+  }
+
+  100% {
+    bottom: -80em;
+    left: 0em;
+  }
+}
+
+.jellyfish3 {
+  position: absolute;
+  left: 0;
+  bottom: -80em;
+  animation: jellyfish-animation 14s infinite ease-in-out;
+  @media (max-width: 1000px) {
   }
 }
 //Section 4
@@ -218,8 +280,23 @@
   display: flex;
   flex-direction: column;
   align-items: center;
+  overflow: hidden;
+  z-index: 5;
   h2 {
     color: white;
+  }
+}
+
+.monster3 {
+  display: none;
+  position: absolute;
+  z-index: 0;
+  width: 50%;
+  // animation: monster3-fish-animation 2s ease-in-out;
+  right: -14em;
+  overflow: hidden;
+  @media (max-width: 800px) {
+    display: none;
   }
 }
 .section5cards {
@@ -230,6 +307,7 @@
   margin-top: 4em;
 }
 .card5 {
+  z-index: 15;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -280,11 +358,16 @@
 .section6 {
   margin-top: 9em;
   width: 100%;
+
   display: flex;
   flex-direction: column;
   align-items: center;
   h2 {
     color: white;
+    z-index: 15;
+  }
+  div {
+    z-index: 15;
   }
   @media (max-width: 800px) {
     h2 {

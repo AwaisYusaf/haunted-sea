@@ -15,21 +15,23 @@ function Footer() {
                     </div>
                 </div>
                 <div className={styles.links}>
-                    <Link href="#">Explore</Link>
-                    <Link href="#">Our Features</Link>
+                    <Link href="#explore">Explore</Link>
+                    <Link href="#our-features">Our Features</Link>
                     <Link href="#">Pitchdeck</Link>
-                    <Link href="#">Create</Link>
-                    <Link href="#">Contact Us</Link>
+                    <Link href="#create">Create</Link>
+                    <Link href="#contact-us">Contact Us</Link>
                 </div>
             </div>
             <hr/>
             
             <div className={styles.details}>
                 <div className={styles.left}>
-                    <div className={styles.logo}>        
-                        <img src="/assets/logo.png"/>
-                        <h2>HauntedSea</h2>
-                    </div>
+                    <Link href="/">
+                        <div className={styles.logo}>        
+                            <img src="/assets/logo.png"/>
+                            <h2>HauntedSea</h2>
+                        </div>
+                    </Link>
                     <span>
                         HauntedSea is the First decentralised NFT marketplace and Virtual World on the Fantom Opera Network. Buy, Sell, and discover exclusive digital items.
                     </span>
