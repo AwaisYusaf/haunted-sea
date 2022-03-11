@@ -44,8 +44,12 @@ export default function Home() {
               <h2>The first ever NFT marketplace and <br/>
                   and Virtual World on the Fantom Network</h2>
               <div className={styles.buttons}>
-                <button className={styles.explore}>Explore</button>
-                <button className={styles.create}>Create</button>
+                <Link href="#explore">
+                  <button className={styles.explore}>Explore</button>
+                </Link>
+                <Link href="#create">
+                  <button className={styles.create}>Create</button>
+                </Link>
               </div>
               <div className={styles.learnMoreLink}>
                 <img src='/assets/play.png'/>
@@ -181,8 +185,8 @@ export default function Home() {
           <div className={styles.section5cards}>
             
             <div className={styles.card5}>
-              <div style={{backgroundImage:'url(/assets/icon1.png)'}} className={styles.card5icon}>
-                <img src="/assets/iconoverlay.png" alt="overlay"/>
+              <div style={{backgroundImage:'url(/assets/overlay2.png)'}} className={styles.card5icon}>
+                <img src="/assets/icon1.png" alt="overlay"/>
               </div>
               <h4>Setup your wallet</h4>
               <p>Once you’ve set up your wallet of choice, connect it to HauntedSea by clicking the wallet icon in the top right corner. Learn about the <span>wallets we support.</span></p>
@@ -190,27 +194,24 @@ export default function Home() {
             </div>
 
             <div className={styles.card5}>
-              <div style={{backgroundImage:'url(/assets/icon2.png)'}} className={styles.card5icon}>
-                <img src="/assets/iconoverlay.png" alt="overlay"/>
+              <div style={{backgroundImage:'url(/assets/overlay2.png)'}} className={styles.card5icon}>
+                <img src="/assets/icon2.png" alt="overlay"/>
               </div>
               <h4>Create your collection</h4>
               <p>Click <span>My Collections</span> and set up your collection. Add social links, a description, profile & banner images, and set a secondary sales fee.</p>
-
             </div>
 
             <div className={styles.card5}>
-              <div style={{backgroundImage:'url(/assets/icon3.png)'}} className={styles.card5icon}>
-                <img src="/assets/iconoverlay.png" alt="overlay"/>
+              <div style={{backgroundImage:'url(/assets/overlay2.png)'}} className={styles.card5icon}>
+                <img src="/assets/icon3.png" alt="overlay"/>
               </div>
               <h4>Add your NFTS</h4>
               <p>Upload your work (image, video, audio, or 3D art), add a title and description, and customize your NFTs with properties, stats, and unlockable content.</p>
-
-
             </div>
 
             <div className={styles.card5}>
-              <div style={{backgroundImage:'url(/assets/icon4.png)'}} className={styles.card5icon}>
-                <img src="/assets/iconoverlay.png" alt="overlay"/>
+              <div style={{backgroundImage:'url(/assets/overlay2.png)'}} className={styles.card5icon}>
+                <img src="/assets/icon4.png" alt="overlay"/>
               </div>
               <h4>List them for sale</h4>
               <p>Choose between auctions, fixed-price listings, and declining-price listings. You choose how you want to sell your NFTs, and we help you sell them!</p>
