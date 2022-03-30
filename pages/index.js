@@ -17,13 +17,6 @@ import featuresData from '../components/Our-features/data.json';
 import Footer from '../components/Footer/Footer';
 
 export default function Home() {
-  function animateFish(){
-    {
-      let fish = document.getElementById('monster3-fish');
-      fish.style.animation = 'monster3-fish-animation 2s ease-in-out';
-      fish.style.display = 'flex';
-    }
-  }
   return (
     <div>
       <Head>
@@ -53,39 +46,40 @@ export default function Home() {
               </div>
               <div className={styles.learnMoreLink}>
                 <img src='/assets/play.png'/>
-                <Link href='/learn-mode'>Learn more about hauntedsea</Link>
+                <Link href='/'>Learn more about hauntedsea</Link>
               </div>
 
               
               <div className={styles.social_links_container}>
                         <div className={styles.social_links}>
+                        
 
                             <div className={styles.social_link_icon}>
-                                <a href="https://twitter.com/iotexpad" target="_blank">
+                                <a href="https://www.twitter.com/HauntedSeaio" target="_blank">
                                     <img src="/Icons/twitter.png" />
                                 </a>
                             </div>
 
                             <div className={styles.social_link_icon}>
-                                <a href="https://t.me/iotexpad" target="_blank">
+                                <a href="https://t.me/HauntedSeaOfficial" target="_blank">
                                     <img src="/Icons/telegram.png" />
                                 </a>
                             </div>
 
                             <div className={styles.social_link_icon}>
-                                <a href="https://t.me/iotexpadANN" target="_blank">
+                                <a href="https://t.me/HauntedSeaOfficial" target="_blank">
                                     <img src="/Icons/telegram.png" />
                                 </a>
                             </div>
 
                             <div className={styles.social_link_icon}>
-                                <a href="https://github.com/iotexpad" target="_blank">
+                                <a href="#" target="_blank">
                                     <img src="/Icons/github.png" />
                                 </a>
                             </div>
 
                             <div className={styles.social_link_icon}>
-                                <a href="https://iotexpad.medium.com" target="_blank">
+                                <a href="#" target="_blank">
                                     <img src="/Icons/m-icon.png" />
                                 </a>
                             </div>
@@ -180,7 +174,7 @@ export default function Home() {
           </section>
           {/* Section-5 */}
         <div id="create"></div>
-        <section className={styles.section5} onMouseEnter={()=>animateFish()} onClick={()=>animateFish()}>
+        <section className={styles.section5}>
           <h2>Create and sell your NFTS</h2>
           <div className={styles.section5cards}>
             
