@@ -72,11 +72,7 @@ export default function Home() {
                                 </a>
                             </div>
 
-                            <div className={styles.social_link_icon}>
-                                <a href="#" target="_blank">
-                                    <img src="/Icons/github.png" />
-                                </a>
-                            </div>
+                          
 
                             <div className={styles.social_link_icon}>
                                 <a href="#" target="_blank">
@@ -139,22 +135,22 @@ export default function Home() {
                   <Card3 title="Collectibles" imgUrl="/assets/collectible.png"/>
                 </SwiperSlide>
                 <SwiperSlide>
-                  <Card3 title="Collectibles" imgUrl="/assets/ctg1.jpeg" extraPadding={true}/>
+                  <Card3 title="Virtual Worlds" imgUrl="/assets/ctg1.jpeg" extraPadding={true}/>
                 </SwiperSlide>
                 <SwiperSlide>
-                  <Card3 title="Collectibles" imgUrl="/assets/ctg2.jpeg" extraPadding={true}/>
+                  <Card3 title="Utility" imgUrl="/assets/ctg2.jpeg" extraPadding={true}/>
                 </SwiperSlide>
                 <SwiperSlide>
-                  <Card3 title="Collectibles" imgUrl="/assets/ctg3.jpeg" extraPadding={true}/>
+                  <Card3 title="Trading Cards" imgUrl="/assets/ctg3.jpeg" extraPadding={true}/>
                 </SwiperSlide>
                 <SwiperSlide>
-                  <Card3 title="Collectibles" imgUrl="/assets/ctg4.jpeg" extraPadding={true}/>
+                  <Card3 title="Sports" imgUrl="/assets/ctg4.jpeg" extraPadding={true}/>
                 </SwiperSlide>
                 <SwiperSlide>
-                  <Card3 title="Collectibles" imgUrl="/assets/ctg5.jpeg" extraPadding={true}/>
+                  <Card3 title="Photography" imgUrl="/assets/ctg5.jpeg" extraPadding={true}/>
                 </SwiperSlide>
                 <SwiperSlide>
-                  <Card3 title="Collectibles" imgUrl="/assets/ctg6.jpeg" extraPadding={true}/>
+                  <Card3 title="Domain names" imgUrl="/assets/ctg6.jpeg" extraPadding={true}/>
                 </SwiperSlide>
               </Swiper>
               <img src="/assets/jellyfish1.png" alt="jellyfish" id="jellyfish" className={styles.jellyfish3}/>
