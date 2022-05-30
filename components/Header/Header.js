@@ -18,7 +18,7 @@ function Header() {
       <div className={styles.nav}>
         <Link href="#explore" passHref>Explore</Link>
         <Link href="#our-features" passHref>Our Features</Link>
-        <Link href="/" passHref><abbr title='Coming Soon' className={styles.comingSoon}>Pitchdeck</abbr></Link>
+        <Link href="/document-pitchdeck.pdf" passHref download><abbr title='Coming Soon' className={styles.comingSoon}>Pitchdeck</abbr></Link>
         <Link href="#create" passHref>Create</Link>
         <Link href="#contact-us" passHref>Contact Us</Link>
       </div>

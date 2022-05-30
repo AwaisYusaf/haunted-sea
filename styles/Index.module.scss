@@ -185,7 +185,7 @@
   flex-direction: column;
   align-items: center;
   z-index: -1;
-  h2 {
+  h2,h3 {
     color: white;
   }
   background: url("/assets/monster2.png");
@@ -526,3 +526,18 @@
     }
   }
 }
+// .comingSoon{
+//   display: flex;
+//   justify-content: center;
+//   align-items: center;
+//   min-height: 10vh;
+//   h1{
+//     font-size: 50px;
+//     color:white;
+//     font-family: 'Indie Flower', cursive;
+//     background: -webkit-linear-gradient(180deg, #57e7ca,#00c6fb);
+//     -webkit-background-clip: text;
+//     -webkit-text-fill-color: transparent;
+//     text-align: center;
+//   }
+// }

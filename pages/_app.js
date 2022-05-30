@@ -13,6 +13,7 @@ function MyApp({ Component, pageProps }) {
     </style> */}
 
       <link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet"></link>
+      <link href="https://fonts.googleapis.com/css2?family=Indie+Flower&family=Poppins&display=swap" rel="stylesheet"></link>
     </Head>
 
     <div className="app">
