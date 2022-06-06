@@ -16,7 +16,7 @@
   align-items: center;
   text-align: start;
   z-index: 10;
-  margin-top: -10em;
+  margin-top: -5em;
   h1 {
     font-size: 30px;
     font-weight: 900;
@@ -217,17 +217,17 @@
 .section3cards {
   display: flex;
   justify-content: center;
-  width: 62em;
+  width: 75%;
   margin-top: 30px;
-  height: 100%;
   padding-bottom: 3em;
-  @media (max-width: 1300px) {
-    width: 80%;
-  }
-  @media (max-width: 1100px) {
-    width: 90%;
-  }
-  @media (max-width: 1100px) {
+  overflow-x:visible;
+  // @media (max-width: 1300px) {
+  //   width: 80%;
+  // }
+  // @media (max-width: 1100px) {
+  //   width: 90%;
+  // }
+  @media (max-width: 800px) {
     width: 100%;
   }
 }
@@ -253,6 +253,7 @@
   bottom: -80em;
   animation: jellyfish-animation 14s infinite ease-in-out;
   @media (max-width: 1000px) {
+    display: none;
   }
 }
 //Section 4
@@ -302,7 +303,7 @@
   // animation: monster3-fish-animation 2s ease-in-out;
   right: -14em;
   overflow: hidden;
-  @media (max-width: 900px) {
+  @media (max-width: 1000px) {
     display: none;
   }
 }
